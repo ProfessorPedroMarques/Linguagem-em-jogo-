@@ -1,0 +1,17 @@
+{
+  "name": "linguagem-em-jogo-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Back-end do Linguagem em Jogo (API modular, SQLite, sem dependências externas)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning src/index.js",
+    "migrate": "node --disable-warning=ExperimentalWarning src/db/migrate.js",
+    "seed": "node --disable-warning=ExperimentalWarning src/db/seed.js",
+    "test": "node --disable-warning=ExperimentalWarning --test"
+  }
+}
