@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linguagem em Jogo — Back-end (Etapa 1)
 
 API modular em Node.js com SQLite. **Sem dependências externas**: usa apenas módulos nativos do Node (`http`, `crypto`, `node:sqlite`, `node:test`). Não há `npm install` a fazer.
@@ -91,3 +92,7 @@ Respostas: `{ "data": ..., "meta"?: ... }` em caso de sucesso; `{ "error": { "co
 ## Migração para PostgreSQL
 
 O SQL das migrações usa recursos simples. Para PostgreSQL, ajuste `datetime('now')`, `AUTOINCREMENT` e `COLLATE NOCASE`, e troque a camada `db/connection.js`.
+=======
+# Linguagem-em-jogo-
+Plataforma educacional inclusiva e interativa que transforma a alfabetização em uma aventura! O Linguagem em Jogo utiliza atividades progressivas, narrador por voz e um mascote virtual para desenvolver consciência fonológica, junção silábica, formação de palavras e interpretação de textos, respeitando o ritmo e as necessidades de cada criança
+>>>>>>> 4cdac8edcc69f78a49c8c898890c0230f124c58d
